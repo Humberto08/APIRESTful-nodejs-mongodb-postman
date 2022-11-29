@@ -1,0 +1,16 @@
+APIRESTful com NodeJs e MongoDB
+Utilizando o Postaman
+
+1-Instalação package json
+npm init -y
+
+2-Instalação do express, nodemon e mongoose
+npm install express nodemon mongoose
+
+3-Criar o start no package json
+Em scripts acrescente "start": "nodemon ./index.js localhost 3000"
+
+4-Criar um arquivo dotenv
+npm install dotenv
+crie um arquivo .env 
+crie um arquivo .gitignore
